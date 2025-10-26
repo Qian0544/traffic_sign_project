@@ -1,0 +1,148 @@
+# ============================================
+# DATASETS - DO NOT COMMIT
+# ============================================
+
+# Entire data folder (all datasets)
+data/
+
+# Specific dataset folders (if you want to be explicit)
+Self-Driving_Cars/
+Traffic_Sign_Detection/
+
+# Image files (in case any are outside data/)
+*.jpg
+*.jpeg
+*.png
+*.ppm
+*.bmp
+*.tif
+*.tiff
+
+# ============================================
+# YOLO LABEL FILES
+# ============================================
+*.txt
+!requirements.txt
+!README.txt
+labels/
+*.cache
+
+# ============================================
+# RESULTS & OUTPUTS - DO NOT COMMIT
+# ============================================
+results/
+outputs/
+runs/
+experiments/
+
+# Generated visualizations
+confusion_matrix.*
+per_class_metrics.*
+classification_report.*
+metrics.csv
+*.csv
+!data_info.csv
+
+# ============================================
+# TRAINED MODELS - DO NOT COMMIT (large)
+# ============================================
+models/
+*.h5
+*.keras
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.weights
+checkpoints/
+saved_models/
+
+# ============================================
+# EXTRACTED FEATURES (large numpy files)
+# ============================================
+*_features.npy
+*_scaled.npy
+*_train.npy
+*_val.npy
+*_test.npy
+*.npy
+*.npz
+feature_cache/
+features/
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+python_env/
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Jupyter Notebook cache
+*.ipynb_checkpoints
+
+# ============================================
+# IDE & EDITOR
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# ============================================
+# TENSORFLOW / KERAS
+# ============================================
+logs/
+tensorboard_logs/
+tf_logs/
+*.log
+
+# ============================================
+# MACOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================
+# WINDOWS
+# ============================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# TEMPORARY FILES
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+~*
+
+# ============================================
+# COMPRESSED FILES (if you create any)
+# ============================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
